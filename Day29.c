@@ -18,9 +18,15 @@ int main()
                                   
     switch(choice)
      {
-        case 1: printf("Result = %.2f", a + b); break;
-        case 2: printf("Result = %.2f", a - b); break;
-        case 3: printf("Result = %.2f", a * b); break;
+        case 1: 
+             printf("Result = %.2f", a + b);
+             break;
+        case 2:
+             printf("Result = %.2f", a - b);
+             break;
+        case 3: 
+             printf("Result = %.2f", a * b);
+             break;
         case 4:
              if(b != 0)
                 printf("Result = %.2f", a / b);
